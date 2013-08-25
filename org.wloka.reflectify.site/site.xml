@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Reflectify Plug-in" url="http://wloka.org/eclipse/reflectify/site.xml">
+      Reflectify is a small Eclipse plugin that offers Quick Assists for &quot;reflectifying&quot; class, instance, method and field accesses. The quick assists are enabled if an expression or a statement
+is selected in the Java editor.
+   </description>
+   <feature url="features/org.wloka.reflectify.feature_0.0.2.201308251346.jar" id="org.wloka.reflectify.feature" version="0.0.2.201308251346" nl="en">
+      <category name="org.wloka.reflectify.site"/>
+   </feature>
+   <category-def name="org.wloka.reflectify.site" label="Reflectify Refactoring">
+      <description>
+         Reflectify is a small Eclipse plug-in that offers Quick Assists for &quot;reflectifying&quot; class, instance, method and field accesses. The quick assists are enabled if an expression or a statement is selected in the Java editor.
+      </description>
+   </category-def>
+</site>

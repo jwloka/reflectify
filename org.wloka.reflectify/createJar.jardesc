@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jardesc>
+<jar path="org.wloka.reflectify.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/org.wloka.reflectify/createJar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+<storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+<selectedProjects/>
+<manifest generateManifest="false" manifestLocation="/org.wloka.reflectify/META-INF/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+<sealing sealJar="false">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+<file path="/org.wloka.reflectify/.project"/>
+<file path="/org.wloka.reflectify/plugin.xml"/>
+<file path="/org.wloka.reflectify/.classpath"/>
+<file path="/org.wloka.reflectify/plugin.properties"/>
+<javaElement handleIdentifier="=org.wloka.reflectify/src"/>
+<folder path="/org.wloka.reflectify/META-INF"/>
+<file path="/org.wloka.reflectify/build.properties"/>
+</selectedElements>
+<fatjar builder="org.eclipse.jdt.ui.plain_jar_builder" launchConfig=""/>
+</jardesc>

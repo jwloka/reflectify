@@ -1,0 +1,19 @@
+Bundle-ManifestVersion: 2
+Bundle-Name: Reflectify Tests Plug-in
+Bundle-SymbolicName: org.wloka.reflectify.tests
+Bundle-Version: 0.0.2.qualifier
+Bundle-Activator: org.wloka.reflectify.tests.ReflectifyTestPlugin
+Bundle-Vendor: Jan Wloka
+Require-Bundle: org.eclipse.core.runtime,
+ org.junit4,
+ org.eclipse.jdt.core,
+ org.eclipse.jface.text,
+ org.eclipse.core.resources,
+ org.wloka.reflectify
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: org.wloka.reflectify.tests,
+ org.wloka.reflectify.tests.assist,
+ org.eclipse.jdt.core.tests.junit.extension;x-internal:=true,
+ org.eclipse.jdt.core.tests.model;x-internal:=true,
+ org.eclipse.jdt.core.tests.util;x-internal:=true
